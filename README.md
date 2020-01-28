@@ -42,7 +42,7 @@ _Updating mixerChannelId in config.json_
 * Go to https://mixer.com/api/v1/channels/<your username>?fields=id
 * Copy the id
 ```
-{"id":<Copy this>}
+{"id":"<Copy this>"}
 ```
 * Open config.json and paste the channel id
 ```
