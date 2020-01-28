@@ -29,17 +29,6 @@ client.on('error', () => {
 
 client.login(token);
 
-client.on('message', message => {
-    console.log(message.content);
-
-    if(message.content.startsWith(`${prefix}ping`)) {
-        message.channel.send('Pong!')
-    }
-    if(message.content.startsWith(`${prefix}test`)) {
-        sendEmbedToDiscord();
-    }
-});
-
 // Mixer Guts
 Carina.WebSocket = ws;
 
@@ -62,6 +51,7 @@ ca.subscribe(`channel:${mixerChannelId}:update`, channel => {
         if(offline < 1)
         {
             console.log('Channel Offline');
+            clearLiveMessage();
             offline++;
             online = 0;
         }
@@ -99,5 +89,9 @@ function sendEmbedToDiscord() {
 }
 
 function clearLiveMessage() {
-    client.channels.get(discordChannelId).delete
+    var channel = client.channels.get(discordChannelId);
+
+    channel.fetchMessages({limit: 2})
+    .then(messages => messages.filter(m => m.delete()))
+    .catch(console.error);
 }
