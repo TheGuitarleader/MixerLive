@@ -13,17 +13,25 @@ in your Discord server through the bot of your choice.
 _Create the Discord bot_
 
 Go to https://discordapp.com/developers and create new application
+
 Enter name and click create
+
 Under settings go to bot and click add bot
+
 Under OAuth2, in scopes check bot
+
 In bot permissions make sure view channels, send messages, and embed links are checked
+
 Copy the link in scopes
+
 Open the link in new tab and follow the instructions for adding bot to server.
 
 _Updating token in config.json_
 
 Go to https://discordapp.com/developers and click on the application
+
 In setting, under bot, click copy to copy the bot token
+
 Open config.json and paste the token
 ```
 "token":"<Paste it here>",
@@ -32,6 +40,7 @@ Open config.json and paste the token
 _Updating discordChannelId in config.json_
 
 In the Discord server, right click on the channel and click copy id
+
 Open config.json and paste the Discord channel id
 ```
 "discordChannelId":"<Paste it here>",
