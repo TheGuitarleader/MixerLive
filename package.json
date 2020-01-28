@@ -1,0 +1,20 @@
+{
+  "name": "mixerlivebot-discord",
+  "version": "1.0.1",
+  "description": "Discord bot that announces when live on Mixer.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "nexe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Ebbinga (TheGuitarleader)",
+  "license": "ISC",
+  "dependencies": {
+    "carina": "^0.11.2",
+    "discord.js": "^11.5.1",
+    "electron-packager": "^14.2.0",
+    "request": "^2.88.0",
+    "ws": "^7.2.1"
+  }
+}

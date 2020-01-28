@@ -1,0 +1,6 @@
+{
+    "prefix":"<Bot prefix for testing bot connectivity>",
+	"token":"<Token of your Discord bot>",
+	"discordChannelId":"<Id of the channel you want live messages to go to>",
+	"mixerChannelId":"<Channel id of your Mixer account>"
+}
