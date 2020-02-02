@@ -2,6 +2,7 @@
 
 # MixerLive
 > "That's faster than OBS!" - Anonymous User
+
 > Real-time live stream announcements in Discord for Mixer streaming service.
 
 MixerLive is an app that connects to a specific Mixer channel with a channel id through what is 
