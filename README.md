@@ -1,14 +1,14 @@
 ![](banner.png)
 
 # MixerLive
-> "That's faster than OBS!" - Anonymous User
-
 > Real-time live stream announcements in Discord for Mixer streaming service.
 
 MixerLive is an app that connects to a specific Mixer channel with a channel id through what is 
 called [constellation](https://dev.mixer.com/reference/constellation/introduction). When the specific channel goes live, the app will gather the most recent information through the Mixer api and send an embedded message to the channel of your choice in your Discord server through the bot of your choice. 
 
 ![](example.png)
+
+> "That's faster than OBS!" - Anonymous User
 
 ## Setup Guide
 * Head on over to the [Release](https://github.com/TheGuitarleader/MixerLive/releases) tab and download the latest version.
