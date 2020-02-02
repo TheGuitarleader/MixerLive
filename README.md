@@ -3,10 +3,7 @@
 # MixerLive
 > Live stream announcements in Discord for Mixer streaming service.
 
-MixerLive is an app that connects to a specific Mixer channel with a channel id through what is 
-called constellation. When the specific channel goes live, the app will gather the most recent 
-information through the Mixer api and send an embedded message to the channel of your choice 
-in your Discord server through the bot of your choice. 
+MixerLive is an application that enables real-time stream annoucements in Discord throught [constellation](https://dev.mixer.com/reference/constellation/introduction).
 
 ![](example.png)
 
