@@ -1,3 +1,6 @@
+# Update
+On July 22, 2020, the Mixer Team decided to close the Mixer service. All traffic will redirect to fb.gg. Since the Mixer service will no longer be available, I'm stopping development on this application.
+
 ![](banner.png)
 
 # MixerLive
